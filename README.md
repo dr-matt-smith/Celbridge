@@ -2,6 +2,9 @@
 
 `Celbridge` is a user friendly tool that helps creative people make cool stuff. 
 
+`Celbridge` is great for building custom tools for your game dev team.
+
+
 The goals of `Celbridge` are to:
 
 - Make common development tasks easier and **more accessible** for makers.
@@ -20,8 +23,8 @@ The goals of `Celbridge` are to:
 - Edit text documents with syntax highlighting, code completion and split-screen preview.
 - View common file types (images, audio, video, pdf, ...)
 - Bookmark web pages as documents by creating simple `.web` files.
-- Run scripts in the `Console Panel` via a built-in scripting engine, with command history.
-- Add custom behaviours to files and folders via the `Inspector Window` and component system (similar to [Unity](https://docs.unity3d.com/6000.0/Documentation/Manual/UsingTheInspector.html) or [Unreal](https://dev.epicgames.com/documentation/en-us/unreal-engine/level-editor-details-panel-in-unreal-engine)).
+- Run scripts in the `Console` documents with command history (Python and system default consoles available so far, more to come in the future ...)
+- Add custom behaviours to files and folders via console documents and script runners and component system (similar to [Unity](https://docs.unity3d.com/6000.0/Documentation/Manual/UsingTheInspector.html) or [Unreal](https://dev.epicgames.com/documentation/en-us/unreal-engine/level-editor-details-panel-in-unreal-engine)).
 
 Planned features include:
 
@@ -31,15 +34,14 @@ Planned features include:
 
 # Installation
 
-`Celbridge` is distributed as a `.msix` installer for `Windows PCs`.
+`Celbridge` is distributed as: 
+- a `.msix` installer for `Windows PCs`.
+- a `.dmg` installer for `Apple Mac computers`.
+- (a `Linux` version may be available in the future...)
 
-- Download the latest `.msix` installer from the [releases section](https://github.com/AnTulcha/Celbridge/releases).
-- Run the `.msix` installer
+Download and run the latest installer from the [releases section](https://github.com/AnTulcha/Celbridge/releases).
 
-You can now run `Celbridge` from the start menu, or by opening a `.celbridge` project file via `Windows Explorer`.
 
-> [!NOTE]
-> `Celbridge` currently runs on `Windows`. A `MacOS` version is planned, and a `Linux` version may be possible in future.
 
 # Building From Source
 
@@ -68,11 +70,11 @@ There's very little user documentation available just yet, but I am working on i
 - [x] `Console Panel`
 - [x] Web page documents and file viewer using `WebView2`
 - [x] Advanced text editing via [Monaco Editor]( https://microsoft.github.io/monaco-editor/)
+- [x] Global find and replace
 - [ ] Initial pass on documentation
 - [ ] Use [Json](https://www.json.org/json-en.html) & [Json Schema](https://json-schema.org/) for all project data files.
 - [ ] Change scripting to use `Python` exclusively
 - [ ] Investigate using a sandboxed execution environment, e.g. [Pyodide](https://pyodide.org)
-- [ ] Global find and replace
 - [ ] `Cel Script` visual scripting language
 - [ ] `Cel Script` debugger
 - [ ] Extension system and package manager
@@ -81,7 +83,7 @@ There's very little user documentation available just yet, but I am working on i
 
 I'm [Chris Gregan](https://github.com/chrisgregan) and I work at [Romero Games](https://romerogames.com/), a games studio based in Galway, Ireland. I've worked in games development for 20+ years and have a lot of experience with many programming languages and technologies, my favourites being C#, .NET and Python.
 
-I am currently doing a Research Masters with [Technical University Dublin](https://www.tudublin.ie/), and I am using this project to help conduct my research.
+I am currently doing a Research Masters with [Dr. Matt Smith](https://www.tudublin.ie/explore/faculties-and-schools/computing-digital-data/informatics-and-cybersecurity/people/academic-staff/dr-matt-smith.php) at [Technical University Dublin](https://www.tudublin.ie/) and I am using this project to help conduct my research.
 
 I also created the [Fungus](https://github.com/snozbot/fungus) visual scripting tool for Unity Engine. That project is now maintained by the community.
 
